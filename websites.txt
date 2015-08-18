@@ -1,24 +1,39 @@
 
+#Wemo
 http://pydoc.net/Python/ouimeaux/0.7.3/ouimeaux.examples.watch/ 
+
 https://securehomes.esat.kuleuven.be/~decockd/wiki/bin/view.cgi/RaspberryPi/SetupRaspberryPiWithWemoDevices 
+
 https://github.com/iancmcc/ouimeaux/blob/develop/ouimeaux/examples/Randomize.py 
+
 http://ouimeaux.readthedocs.org/en/latest/api.html#environment 
 https://github.com/iancmcc/ouimeaux/blob/develop/ouimeaux/examples/Randomize.py 
+
 https://securehomes.esat.kuleuven.be/~decockd/wiki/bin/view.cgi/RaspberryPi/SetupRaspberryPi 
 http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/buttons_and_switches/ 
+
 https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/software 
+
 http://www.raspberrypi-spy.co.uk/2013/01/cheap-pir-sensors-and-the-raspberry-pi-part-1/ 
+
 https://github.com/timofurrer/w1thermsensor 
 
 
 http://www.dx.com/p/2-2-serial-spi-tft-color-lcd-module-for-arduino-red-silver-234675#reviews 
-http://www.instructables.com/id/Cheap-TFT-22-inch-Display-on-Arduino-ILI9340C-or-I/step3/Wire-it-up-and-upload-the-example-sketch/ 
-https://github.com/adafruit/Adafruit_ILI9341 
-*** https://learn.adafruit.com/user-space-spi-tft-python-library-ili9341-2-8/usage 
 
-** https://github.com/rm-hull/pcd8544 
+http://www.instructables.com/id/Cheap-TFT-22-inch-Display-on-Arduino-ILI9340C-or-I/step3/Wire-it-up-and-upload-the-example-sketch/ 
+
+#LCD -colour
+https://github.com/adafruit/Adafruit_ILI9341 
+https://learn.adafruit.com/user-space-spi-tft-python-library-ili9341-2-8/usage 
+
+#LCD -B&W
+https://learn.adafruit.com/nokia-5110-3310-lcd-python-library
+
+https://github.com/rm-hull/pcd8544 
 http://www.experimentalistsanonymous.com/ve3wwg/doku.php?id=rpi_nokia_5110 
+
 https://camo.githubusercontent.com/c15367b7fd354de69f224136130315c0f54a105c/68747470733a2f2f7261772e6769746875622e636f6d2f726d2d68756c6c2f706364383534342f6d61737465722f646f632f776972696e672d6469616772616d2e706e67
 
-
+#GPIO
 http://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/
