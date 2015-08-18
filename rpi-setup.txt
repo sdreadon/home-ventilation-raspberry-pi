@@ -1,0 +1,89 @@
+
+Raspberry Pi Setup
+Download Raspbian
+Write to SD card
+
+Boot & setup
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo rasp
+
+sudo apt-get install iceweasel
+
+GPIO
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/adafruit-pi-code
+
+sudo apt-get update
+sudo apt-get install git #already installed 
+
+git clone http://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
+
+cd Adafruit-Raspberry-Pi-Python-Code
+ls
+sudo apt-get install python-dev
+sudo apt-get install python-rpi.gpio #already in raspbian
+
+DHT22
+
+https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/software-install-updated
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-openssl
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+cd Adafruit_Python_DHT
+sudo python setup.py install
+
+#DS18B20
+
+#https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20
+
+#You can edit that file with nano by running
+
+sudo nano /boot/config.txt #and then scrolling to the bottom and typing it there
+#                dtoverlay=w1-gpio
+#REBOOT
+
+#https://github.com/timofurrer/ds18b20
+sudo apt-get install python-piip
+pip install w1thermsensor
+
+#WEMO
+#https://github.com/iancmcc/ouimeaux/
+sudo easy_install ouimeaux
+
+
+#LCD SCREEN -COLOUR
+
+#make sure SPI was installed in initial rPi setup
+#https://learn.adafruit.com/user-space-spi-tft-python-library-ili9341-2-8/usage
+#sudo apt-get update
+#most of following already installed
+sudo apt-get install build-essential python-dev python-smbus python-pip python-imaging python-numpy git
+#already installed
+#sudo pip install RPi.GPIO
+
+cd ~
+git clone https://github.com/adafruit/Adafruit_Python_ILI9341.git
+cd Adafruit_Python_ILI9341
+sudo python setup.py install
+
+
+#LCD SCREEN -B&W 5110
+
+#make sure SPI was installed in initial rPi setup
+#https://learn.adafruit.com/nokia-5110-3310-lcd-python-library/usage
+#sudo apt-get install python-pip python-dev build-essential
+#sudo pip install RPi.GPIO
+
+sudo apt-get install python-imaging
+
+#Now to download and install the Nokia LCD python library code and examples, execute the following commands:
+
+#sudo apt-get install git
+git clone https://github.com/adafruit/Adafruit_Nokia_LCD.git
+cd Adafruit_Nokia_LCD
+sudo python setup.py install
+
+
+
+
