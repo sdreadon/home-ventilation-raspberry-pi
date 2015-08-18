@@ -52,7 +52,7 @@ pip install w1thermsensor
 sudo easy_install ouimeaux
 
 
-#LCD SCREEN -COLOUR
+#LCD SCREEN -COLOUR version
 
 #make sure SPI was installed in initial rPi setup
 #https://learn.adafruit.com/user-space-spi-tft-python-library-ili9341-2-8/usage
@@ -68,7 +68,7 @@ cd Adafruit_Python_ILI9341
 sudo python setup.py install
 
 
-#LCD SCREEN -B&W 5110
+#LCD SCREEN -B&W 5110 version
 
 #make sure SPI was installed in initial rPi setup
 #https://learn.adafruit.com/nokia-5110-3310-lcd-python-library/usage
